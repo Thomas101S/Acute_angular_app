@@ -12,13 +12,24 @@
 		<li>{{ item }}</li>
 	</div> -->
 
+	<!-- comment out makelist script if not using web server -->
 	<makelist mylist="movies"></makelist>
 		<input ng-model="addMovie">
 		<button ng-click="addItem(movies, addMovie)">Add this movie</button>
-		
+
+<!-- 	<h3>{{ books.title }}</h3>
+	<div ng-repeat="item in books.list">
+		<li>{{ item }}</li>
+	</div> -->
+
 	<makelist mylist="books"></makelist>
 		<input ng-model="addBook">
 		<button ng-click="addItem(books, addBook)">Add this book</button>
+
+<!-- 	<h3>{{ flavors.title }}</h3>
+	<div ng-repeat="item in flavors.list">
+		<li>{{ item }}</li>
+	</div> -->
 
 	<makelist mylist="flavors"></makelist>
 		<input ng-model="addFlavor">
