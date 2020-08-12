@@ -1,4 +1,8 @@
-You will have to use http-server/apache and copy the server link into your browser. If not, follow instructions in code.
+It is preferred to use http-server/apache and copy the server link into your browser. If not, follow instructions in code.
+
+npm: npm install http-server -g
+
+homebrew: brew install http-server
 
 If you made changes to the code and host it using http-server, you may have to hard-reload/clear cache in order to see new changes
 
