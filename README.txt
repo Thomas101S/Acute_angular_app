@@ -1,4 +1,4 @@
-You will have to use http-server/apache and copy the server link into your browser. If not, follow instructions in code.
+It is preferred to use http-server/apache and copy the server link into your browser. If not, follow instructions in code.
 
 npm: npm install http-server -g
 
