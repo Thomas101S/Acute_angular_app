@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+</head>
+<body ng-app="myApp">
+<div ng-controller="myCtl">
+
+	<!-- uncomment and copy for each list if you do not want to use http-server -->
+<!-- 	<h3>{{ movies.title }}</h3>
+	<div ng-repeat="item in movies.list">
+		<li>{{ item }}</li>
+	</div> -->
+
+	<makelist mylist="movies"></makelist>
+		<input ng-model="addMovie">
+		<button ng-click="addItem(movies, addMovie)">Add this movie</button>
+		
+	<makelist mylist="books"></makelist>
+		<input ng-model="addBook">
+		<button ng-click="addItem(books, addBook)">Add this book</button>
+
+	<makelist mylist="flavors"></makelist>
+		<input ng-model="addFlavor">
+		<button ng-click="addItem(flavors, addFlavor)">Add this flavor</button>
+
+</div>
+
+<!-- Module -->
+<script type="text/javascript" src="js/app.js"></script>
+
+<!-- Controller -->
+<script type="text/javascript" src="js/controller/ctl.js"></script>
+
+<!-- Directive -->
+<script src="js/directives/make_list.js"></script>
+
+</body>
+</html>
