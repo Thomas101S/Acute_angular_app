@@ -1,8 +1,13 @@
-It is preferred to use http-server/apache and copy the server link into your browser. If not, follow instructions in code.
+It is preferred to use http-server/apache and copy the server link into your browser. If not, uncomment sections in code and read instructions.
 
 npm: npm install http-server -g
 
 homebrew: brew install http-server
+
+cd into Acute_angular_app and run http-server
+copy paste one of the servers into your browser
+
+If you do not want to use http-server, run:open -a "Google Chrome" index.html in the directory.
 
 If you made changes to the code and host it using http-server, you may have to hard-reload/clear cache in order to see new changes
 
