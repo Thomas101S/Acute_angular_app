@@ -1,0 +1,22 @@
+{
+  "name": "aaa",
+  "version": "1.0.0",
+  "description": "robot from the future interviews",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomas101S/Acute_angular_app.git"
+  },
+  "author": "TShen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomas101S/Acute_angular_app/issues"
+  },
+  "homepage": "https://github.com/Thomas101S/Acute_angular_app#readme",
+  "dependencies": {
+    "ng": "0.0.0"
+  }
+}
